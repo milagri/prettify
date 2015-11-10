@@ -1,0 +1,42 @@
+* {
+	outline: 2px solid rgba(555,0,0,1);
+}
+/*menu*/
+.lis {
+	margin: 10px;
+	display: inline-block;
+	padding: 10px;
+	font-size: 15px;
+	font-family: fantasy , sans-serif;
+}
+
+.list-menu {
+	text-align: center;
+	
+}
+a:link {
+	text-decoration: none;
+}
+.list-menu a:hover{
+color: blue;
+}
+/*imagen fonddo*/
+#img {
+	background: url("../images/mibackground.jpg") center top fixed;
+	height: 450px;
+}
+h3.text_i {
+	text-align: center;
+	padding-top: 18%;
+	color: #585858;
+	font-size: 35px;
+	font-family: fantasy , sans-serif;
+}
+p.text_i {
+	text-align: center;
+	color: #210B61;
+	font-size: 20px;
+	font-family: monospace, sans-serif;
+	padding: 10px;
+}
+ 
