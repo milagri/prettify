@@ -1,42 +1,52 @@
-* {
-	outline: 2px solid rgba(555,0,0,1);
+body {
+	color: #555555 ;
+	font-family: arial , sans-serif;
+	font-size: 13px;
 }
-/*menu*/
-.lis {
-	margin: 10px;
+h1, h2, h3, h4 {
+	color: #a9268d ;
+	font-family: "oswald" , arial , sans-serif;
+	text-align: center;
+}
+.list-nav {
+	text-align: center;
+}
+.list-nav li{
 	display: inline-block;
-	padding: 10px;
-	font-size: 15px;
-	font-family: fantasy , sans-serif;
+}
+.list-nav a {
+	display: block; 
+	padding: 5px 20px;
+	color: #555555;
+	font-family: "oswald" , arial , sans-serif;
+	text-transform: uppercase; /*para poner mayusuculas*/
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.list-nav a:hover {
+	text-decoration: none;
+	background: #ECECEC;
+	transform: scale(1.2);
+}
+/*end*/
+
+.header-content {
+	background: url("../images/background.jpg") center center;
+	color: #fff;
+	text-align: center;
+	padding: 50px 0;
+}
+.header-content h1 {
+color: #fff;
+}
+.about-me .biografia img {
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	border: 1px solid #515;
+	padding: 5px;
 }
 
-.list-menu {
-	text-align: center;
-	
+.about-me {
+	background: url("../images/tile1.png");
 }
-a:link {
-	text-decoration: none;
-}
-.list-menu a:hover{
-color: blue;
-}
-/*imagen fonddo*/
-#img {
-	background: url("../images/mibackground.jpg") center top fixed;
-	height: 450px;
-}
-h3.text_i {
-	text-align: center;
-	padding-top: 18%;
-	color: #585858;
-	font-size: 35px;
-	font-family: fantasy , sans-serif;
-}
-p.text_i {
-	text-align: center;
-	color: #210B61;
-	font-size: 20px;
-	font-family: monospace, sans-serif;
-	padding: 10px;
-}
- 
