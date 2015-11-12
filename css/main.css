@@ -50,3 +50,19 @@ color: #fff;
 .about-me {
 	background: url("../images/tile1.png");
 }
+/*favorito*/
+.container-favor {
+	width: 75%;
+	text-align: center;
+
+}
+.favoritos
+{
+	text-align: center;
+}
+
+.contacto {
+	background: url("../images/title2.png");
+	text-align: center;
+
+}
